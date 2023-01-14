@@ -6,7 +6,7 @@ boot:
     ;times 3 - ($ - $$) db 0x90
     db '3'
 bpb:
-    db    "<3 Mebby <3<3"
+    db    "<3 mebby <3<3"
     db "Arrow/Page: move"
     db "0-9/A-F: set mem"
     db "Enter: exec .."
