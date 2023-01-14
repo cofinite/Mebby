@@ -3,13 +3,12 @@ org 0x7C00
 
 boot:
     jmp main
-    ;times 3 - ($ - $$) db 0x90
-    db '3'
+    times 3 - ($ - $$) db 0x90
 bpb:
-    db    "<3 mebby <3<3"
+    db    " Controls .<."
     db "Arrow/Page: move"
     db "0-9/A-F: set mem"
-    db "Enter: exec .."
+    db "Enter: exec code"
     %if ($ - bpb) < 59
         %error "BIOS parameter block shouldn't be less than 59 bytes."
     %endif
