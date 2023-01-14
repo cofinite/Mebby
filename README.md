@@ -1,6 +1,6 @@
 Mebby is a real mode x86 Memory Editor that fits in the Boot sector.
 
-![Mebby](./images/0xB800.png "Mebby being used to edit video memory directly")
+![mebby](./images/0x07C0.png "mebby's splash screen")
 
 It can be used to inspect and edit memory, as well as execute machine code anywhere in memory.
 
