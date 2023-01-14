@@ -1,4 +1,4 @@
-Mebby is a real mode x86 Memory Editor that fits in the Boot sector.
+Mebby is an x86 Memory Editor that fits in the Boot sector.
 
 ![mebby](./images/0x07C0.png "mebby's splash screen")
 
