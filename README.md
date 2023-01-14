@@ -14,6 +14,6 @@ This repository also contains a prebuilt binary.
 
 ## How to run
 
-You can try Mebby out by loading it as a floppy disk image on the [v86 emulator](https://copy.sh/v86/).
+You can try mebby out by loading it as a floppy disk image on the [v86 emulator](https://copy.sh/v86/).
 
 Mebby is as of yet untested on actual hardware.
