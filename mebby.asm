@@ -153,7 +153,7 @@ main_loop:
     cmp bl, 'f' - 'a'
     jbe write
     
-	jmp main_loop
+    jmp main_loop
 
 execute:
     call load_cursor_address
