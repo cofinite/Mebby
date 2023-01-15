@@ -125,9 +125,9 @@ main_loop:
         cmp si, VIDEO_MEM_SIZE
         jl .render_row
     
-	mov ah, 0x00; BIOS INT 16,0: wait for keypress and read
-	int 0x16
-	
+    mov ah, 0x00; BIOS INT 16,0: wait for keypress and read
+    int 0x16
+    
     cmp ah, KEY_ENTER
     je execute
     cmp ah, KEY_ARROW_UP
