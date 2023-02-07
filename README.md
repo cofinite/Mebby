@@ -16,4 +16,5 @@ This repository also contains a prebuilt binary.
 
 You can try mebby out by loading it as a floppy disk image on the [v86 emulator](https://copy.sh/v86/).
 
-Mebby is as of yet untested on actual hardware.
+Mebby has also been tested on the following processors:
+- Intel Core Duo T2300
